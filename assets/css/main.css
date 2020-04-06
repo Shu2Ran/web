@@ -21,16 +21,22 @@ body, header, footer, #one, #two, #three {
     padding: inherit;
 }
 
+header{
+    top: 0.5em;
+    position: fixed;
+    height: 30px;
+}
+
 header, footer{
     background-color: black;
     color: white;
     font-size: 20px;
-    height: 0.8%;
     width: 99%;
 }
 
 footer {
     float: left;
+    height: 1%;
 }
 
 span.hf {
