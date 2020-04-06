@@ -22,9 +22,9 @@ body, header, footer, #one, #two, #three {
 }
 
 header{
+    height: 30px;
     top: 0.5em;
     position: fixed;
-    height: 30px;
 }
 
 header, footer{
