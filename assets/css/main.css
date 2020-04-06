@@ -1,25 +1,74 @@
-#html{
+html{
     width: 100%;
-    height: 300px;
+    height: 5000px;
+    background-color: darkgray;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    width: 99%;
+    height: 99%;
+    background-color: darkslategray;
+}
+
+body, header, footer, #one, #two, #three {
+    padding: 3px;
+}
+
+#one-1, #one-2, #two-1, #two-2, #two-3 {
+    padding: inherit;
+}
+
+header, footer{
     background-color: black;
+    color: white;
+    font-size: 20px;
+    height: 0.8%;
+    width: 99%;
 }
 
-.img{
-    width: 90%;
-    height: 90%;
-
+footer {
+    float: left;
 }
 
-#header{
-    background-color: black;
+span.hf {
+    vertical-align: middle;
 }
 
-#header > span{
-    color: aliceblue;
+#one {
+    width: 99%;
+    height: 29%;
+    background-color: wheat;
 }
 
-#one{
-    width: 100%;
-    height: 100px;
-    background-color: bisque;
+#one-1, #one-2 {
+    height: 99%;
+    float: left;
+}
+
+#one-1 {
+    width: 79.5%;
+    background-color: cadetblue;
+}
+
+#one-2 {
+    width: 19.5%;
+    background-color: cadetblue;
+}
+
+#two, #three {
+    height: 69%;
+    float: left;
+}
+
+#two {
+    width: 79.5%;
+    background-color: wheat;
+}
+
+#three {
+    width: 19.5%;
+    background-color: wheat;
 }
