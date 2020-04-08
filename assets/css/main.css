@@ -9,12 +9,12 @@ html{
 body {
     margin: 0;
     width: 99%;
-    height: 99%;
+    height: 99.8%;
     background-color: darkslategray;
 }
 
 body, header, footer, #one, #two, #three {
-    padding: 3px;
+    padding: 0.1% 0.5%;
 }
 
 #one-1, #one-2, #two-1, #two-2, #two-3 {
@@ -23,7 +23,7 @@ body, header, footer, #one, #two, #three {
 
 header{
     height: 30px;
-    top: 0.5em;
+    top: 3px;
     position: fixed;
 }
 
@@ -35,46 +35,46 @@ header, footer{
 }
 
 footer {
-    float: left;
-    height: 1%;
+    clear: both;
+    height: 0.9%;
 }
 
 span.hf {
     vertical-align: middle;
 }
 
-#one {
+div#one {
     width: 99%;
-    height: 29%;
+    height: 28.9%;
     background-color: wheat;
 }
 
-#one-1, #one-2 {
-    height: 99%;
+section#one-1, #one-2 {
+    height: 99.9%;
     float: left;
 }
 
-#one-1 {
-    width: 79.5%;
+section#one-1 {
+    width: 79%;
     background-color: cadetblue;
 }
 
-#one-2 {
-    width: 19.5%;
+section#one-2 {
+    width: 19%;
     background-color: cadetblue;
 }
 
-#two, #three {
-    height: 69%;
+div#two, #three {
+    height: 69.9%;
     float: left;
 }
 
-#two {
-    width: 79.5%;
+div#two {
+    width: 79%;
     background-color: wheat;
 }
 
-#three {
-    width: 19.5%;
+div#three {
+    width: 19%;
     background-color: wheat;
 }
