@@ -61,7 +61,7 @@ section#one-1 {
 
 section#one-2 {
     width: 19%;
-    background-color: cadetblue;
+    background-color: coral;
 }
 
 div#two, #three {
@@ -77,4 +77,19 @@ div#two {
 div#three {
     width: 19%;
     background-color: wheat;
+}
+
+section#one-1 > article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+section#one-1 > article > img {
+    margin: auto;
+    height: auto;
+    width: auto;
+    max-width: 99%;
+    max-height: 99%;
 }
