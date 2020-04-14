@@ -5,6 +5,7 @@
     <title>Chemistry</title>
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <script src="assets/js/date.js"></script>
+    <script src="assets/js/main.js"></script>
 </head>
 <body>
     <header id="header">
@@ -13,12 +14,28 @@
 
     <div id="one">
         <section id="one-1">
-            <article>
-                <img src="img/light.jpg"  alt="" />
-            </article>
+            <div class="app">
+               <div class="scroll">
+                    <!-- 图片展示 -->
+                    <img src="img/D.jpg" alt="scrollImage" class="img current">
+                    <img src="img/light.jpg" alt="scrollImage" class="img">
+                    <img src="img/image.jpg" alt="scrollImage" class="img">
+
+                    <!-- 左右箭头的展示 -->
+                    <div class="lf"></div>
+                    <div class="lr"></div>
+
+                    <!-- 小圆点展示 -->
+                    <div class="dots">
+                        <span class="square"></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+               </div>
+            </div>
         </section>
         <section id="one-2">
-            <p>one-2</p>
+            <img src="img/logoys.jpg" alt="logo" class="logo">
         </section>
     </div>
 

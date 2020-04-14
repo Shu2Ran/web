@@ -25,6 +25,7 @@ header{
     height: 30px;
     top: 3px;
     position: fixed;
+    z-index: 100;
 }
 
 header, footer{
@@ -59,9 +60,102 @@ section#one-1 {
     background-color: cadetblue;
 }
 
+/*one-1 模块中的内容css*/
+.app {
+    width: 100%;
+    height: 98%;
+    margin: 1% 0;
+    text-align: center;
+}
+
+.app .scroll {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.app .scroll .img {
+    display: none;
+    max-height: 100%;
+    max-width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.app .scroll .current {
+    display: block;
+}
+
+.scroll .lf {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    background-image: url('../../img/jt.png');
+    background-position: -83px 0;
+    width: 41px;
+    height: 69px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.scroll .lr {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    background-image: url('../../img/jt.png');
+    background-position: -123px 0;
+    width: 41px;
+    height: 69px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.dots {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    width: 160px;
+}
+
+.dots>span {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 11px;
+    height: 11px;
+    border: 3px solid rgba(204, 204, 204, 0.2);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.dots>span:not(:last-child) {
+    margin-right: 5px;
+}
+
+/* 小圆点的颜色 */
+.dots .square {
+    background: #f46;
+}
+
 section#one-2 {
     width: 19%;
     background-color: coral;
+}
+
+section#one-2 > img {
+    width: 18.5%;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    right: 1.5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div#two, #three {
